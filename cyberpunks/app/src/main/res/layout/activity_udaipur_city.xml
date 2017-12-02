@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4A460"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.heenaodedra.cyberpunks.UdaipurCity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="77dp"
+        android:layout_marginTop="10dp"
+        android:text="Lake Pichola"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:id="@+id/LP"
+        android:layout_centerHorizontal="true"/>
+    <Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+    android:textSize="30dp"
+    android:layout_below="@+id/LP"
+    android:layout_marginTop="10dp"
+    android:layout_centerHorizontal="true"
+    android:layout_marginLeft="77dp"
+    android:textAlignment="center"
+    android:text="City Palace of Udaipur"
+    android:id="@+id/CPU"
+    />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_below="@+id/CPU"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="77dp"
+        android:textAlignment="center"
+        android:text="Lake Fatehsagar"
+        android:id="@+id/FS"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_below="@+id/FS"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="77dp"
+        android:textAlignment="center"
+        android:text="Sajjangarh Fort"
+        android:id="@+id/SF"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_below="@+id/SF"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="77dp"
+        android:textAlignment="center"
+        android:text="Bagore Ki Haveli"
+        android:id="@+id/BKH"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_below="@+id/BKH"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="77dp"
+        android:textAlignment="center"
+        android:text="Maharana Pratap Museum"
+        android:id="@+id/MPM"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_below="@+id/MPM"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="77dp"
+        android:textAlignment="center"
+        android:text="Gangaur Ghat"
+        android:id="@+id/GG"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_below="@+id/GG"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="77dp"
+        android:textAlignment="center"
+        android:text="Badi Lake"
+        android:id="@+id/BL"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_below="@+id/BL"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="77dp"
+        android:textAlignment="center"
+        android:text="Ambrai Ghat"
+        android:id="@+id/AG"
+        />
+
+</RelativeLayout>
+</ScrollView>

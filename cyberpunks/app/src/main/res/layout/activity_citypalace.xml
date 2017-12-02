@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4A460"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.heenaodedra.cyberpunks.citypalace"
+    android:background="#F4A460">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/cp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/iv"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:text="Ticket Fare"
+        android:layout_below="@+id/iv"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tf"
+        android:layout_marginBottom="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="For Indian Tourists"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:id="@+id/IndT"
+        android:layout_below="@+id/tf"
+        android:layout_marginLeft="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="Rs. 110 per person"
+        android:layout_below="@+id/IndT"
+        android:textStyle="bold"
+        android:layout_marginLeft="60dp"
+        android:id="@+id/cost"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="For Foreign Tourists"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:id="@+id/ForT"
+        android:layout_below="@+id/cost"
+        android:layout_marginLeft="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="Rs. 300 per person"
+        android:layout_below="@+id/ForT"
+        android:textStyle="bold"
+        android:layout_marginLeft="60dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/costF"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Book Now"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:id="@+id/Book"
+        android:layout_below="@+id/costF"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        />
+
+
+
+
+
+
+</RelativeLayout>
+
+</ScrollView>
