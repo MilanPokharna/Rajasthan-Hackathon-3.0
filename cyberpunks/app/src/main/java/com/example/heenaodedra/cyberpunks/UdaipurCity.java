@@ -1,5 +1,6 @@
 package com.example.heenaodedra.cyberpunks;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -16,26 +17,20 @@ public class UdaipurCity extends AppCompatActivity {
         Button cpu = (Button) findViewById(R.id.CPU);
         Button fs = (Button) findViewById(R.id.FS);
 
-        lp.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                lakepichola();
-            }
-        });
-
         cpu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 cpu();
             }
         });
+
+
+
     }
 
     private void cpu() {
-
+        Intent intent = new Intent(this,citypalace.class);
+        startActivity(intent);
     }
 
-    private void lakepichola() {
-
-    }
 }
